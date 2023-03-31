@@ -1,0 +1,7 @@
+html{height: 100%;}
+body{height: 100%;display:none}
+.loader40{font-family: sans-serif;font-size: 14px;height:40%;}
+.loader10{font-family: sans-serif;font-size: 14px;height:10%;}
+@media all and (max-width: 768px) {
+.loader40 {font-size: 30px;}
+}
