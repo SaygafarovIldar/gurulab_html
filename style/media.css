@@ -1,4 +1,8 @@
 @media (max-width: 1199.98px) {
+  .courses-title {
+    font-size: 48px;
+    margin-bottom: 60px;
+  }
 
   .nav__list-link {
     font-size: 14px !important;
@@ -33,6 +37,17 @@
 }
 
 @media (max-width: 991.98px) {
+
+
+  .courses-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .courses__wrapper {
+    margin-bottom: 75px;
+  }
+
   .masters__container {
     padding: 0 30px;
   }
@@ -117,6 +132,19 @@
 }
 
 @media (max-width: 767.98px) {
+  .courses {
+    margin-top: 25px;
+  }
+
+  .courses-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .courses__wrapper {
+    margin-bottom: 50px;
+  }
+
   .section-quote__title h3 {
     font-size: 36px
   }
@@ -160,11 +188,34 @@
     width: 100%;
     min-width: 250px;
   }
+
+  .newsletter__info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .info-newsletter__top {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 575.98px) {
+
+  .courses__wrapper {
+    margin-bottom: 25px;
+  }
+
   .masters-card__content {
     transform: translateY(0);
+  }
+
+  .info-newsletter__top {
+    margin-bottom: 25px;
+  }
+
+  .newsletter__info {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .header__content {
@@ -218,7 +269,7 @@
   }
 
   .info-newsletter__title {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .newsletter-form__input {
@@ -228,29 +279,49 @@
   .newsletter-form__btn {
     padding: 15px;
   }
-  
+
   .footer__content-top {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .contacts__list {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .socials__title {
     text-align: center;
   }
-  
+
   .socials__subTitle {
     text-align: center;
   }
-  
+
   .footer__content-descr {
     font-size: 14px;
     margin-top: 15px;
+  }
+
+  .contacts__list {
+    margin-bottom: 0;
+  }
+
+  .footer__content-top {
+    gap: 20px;
+  }
+
+  .footer__content-descr {
+    margin-bottom: 0;
+  }
+
+  .section-quote__title h3 {
+    font-size: 24px;
+  }
+
+  .section-quote__title {
+    margin-bottom: 20px;
   }
 }
