@@ -190,6 +190,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .header__content-right::before {
   content: "";
   width: 100%;
@@ -299,10 +300,6 @@ body {
   height: 100%;
 }
 
-.masters__slide {
-  user-select: none;
-  cursor: pointer;
-}
 
 .courses__title {
   display: -webkit-box;
@@ -465,7 +462,7 @@ body {
 }
 
 .masters__container {
-  padding: 0 50px;
+  padding: 0 80px;
 }
 
 .masters.active {
@@ -473,28 +470,38 @@ body {
 }
 
 .masters-card__img img {
-  max-width: 100%;
+  /* min-width:0%; */
+  width: 100%;
+  object-fit: fill;
+}
+
+
+.masters__slide {
+  user-select: none;
+  cursor: pointer;
 }
 
 .masters-card__content {
+  min-height: 250px;
+  /* max-width: 400px; */
   transition: transform 0.5s ease;
-  transform: translateY(-100px);
+  transform: translateY(-200px);
   background-color: #f9efed;
   padding: 25px;
 }
 
 .masters__slide.swiper-slide-next .masters-card__content {
-  transform: translateY(0);
+  transform: translateY(-60px);
 }
 
 .masters-card__name {
-  font-size: 22px;
+  font-size: 20px;
   margin: 0 0 15px;
   color: #846666;
 }
 
 .masters-card__descr {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   color: #2c1e1e;
 }

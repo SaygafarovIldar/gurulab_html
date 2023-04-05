@@ -1,7 +1,12 @@
-@media (max-width: 1199.98px) {
+@media (max-width: 1200px) {
   .courses-title {
     font-size: 48px;
     margin-bottom: 60px;
+  }
+  
+  .masters-card__content {
+    transform: translateY(-60px);
+    min-height: 320px;
   }
 
   .nav__list-link {
@@ -43,6 +48,10 @@
     font-size: 36px;
     margin-bottom: 40px;
   }
+  .masters-card__content {
+    transform: translateY(-60px);
+    min-height: 280px;
+  }
 
   .courses__wrapper {
     margin-bottom: 75px;
@@ -58,11 +67,6 @@
 
   .masters-card__name {
     font-size: 20px;
-  }
-
-  .masters-card__content {
-    transform: translateY(-70px);
-
   }
 
   .newsletter__map {
@@ -135,7 +139,9 @@
   .courses {
     margin-top: 25px;
   }
-
+  .masters-card__content {
+    min-height: 350px;
+  }
   .courses-title {
     font-size: 28px;
     margin-bottom: 25px;
@@ -151,10 +157,6 @@
 
   .newsletter {
     margin-bottom: 50px;
-  }
-
-  .masters-card__content {
-    transform: translateY(0);
   }
 
   .header__content-left-title {
@@ -204,14 +206,20 @@
   .courses__wrapper {
     margin-bottom: 25px;
   }
-
-  .masters-card__content {
-    transform: translateY(0);
-  }
-
   .info-newsletter__top {
     margin-bottom: 25px;
   }
+  
+  .masters-card__nameХ{
+    font-size: 18px ;
+  }
+  .masters-card__descr {
+    font-size: 12px;
+  }
+  .masters-card__content{
+    min-height: 250px;
+  }
+ 
 
   .newsletter__info {
     padding-top: 25px;

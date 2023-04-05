@@ -27,7 +27,7 @@ function change() {
 const masters_slider = new Swiper("#masters_slider", {
     speed: 400,
     slidesPerView: 1,
-    spaceBetween: 0,
+    spaceBetween: 20,
     centeredMode: true,
     loop: true,
     navigation: {
@@ -39,10 +39,16 @@ const masters_slider = new Swiper("#masters_slider", {
             slidesPerView: 3,
             spaceBetween: 50,
         },
-        567: {
-            spaceBetween: 20,
+     
+        768: {
+            spaceBetween: 30,
             slidesPerView: 2
         },
+        576:{
+            spaceBetween: 10,
+            slidesPerView: 2
+        },
+
     }
 });
 
